@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     
     <link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/forms-bootstrap.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
     <link href="css/flexslider.css" rel="stylesheet">
     <link href="css/jquery.fancybox-1.3.4.css" rel="stylesheet">
@@ -59,15 +60,16 @@
           
           
           <nav>
-              <div id="logo_small"><a href="#home"><img src="img/logo_small.png" alt="Logo small" ></a></div>
+			  <div id="logo_small"><img src="img/custom/logopitsmal.png" alt="Logo small" ></div>	
+              <div id="logo_small"><a href="#home"><img src="img/custom/logotitle.png" alt="Logo small" ></a></div>
               <ul>
-                  
-                  <li><a href="#home" class="selected">Home</a></li>
-                  <li><a href="#about">About Us</a></li>
-                  <li><a href="#services">Services</a></li>
-                  <li><a href="#works">Works</a></li>
-                  <li><a href="#gallery">Gallery</a></li>
-                  <li><a href="#start_project">Contact</a></li>
+                 
+				  <li><a href="#home">Home</a></li>
+				  <li><a href="#about">About</a></li>
+				  <li><a href="#services">Events</a></li>
+				  <li><a href="#works">Register</a></li>
+				  <li><a href="#gallery">Sneak Peek</a></li>
+				  <li><a href="#start_project">Contact</a></li>
                   
                   
               </ul>
@@ -88,10 +90,10 @@
               <option value="" selected="selected">Menu</option>
               
               <option value="#home">Home</option>
-              <option value="#about">About Us</option>
-              <option value="#services">Services</option>
-              <option value="#works">Works</option>
-              <option value="#gallery">Gallery</option>
+              <option value="#about">About</option>
+              <option value="#services">Events</option>
+              <option value="#works">Register</option>
+              <option value="#gallery">Sneak Peek</option>
               <option value="#start_project">Contact</option>
           </select>
           
@@ -110,8 +112,8 @@
               <div class="container visible-tablet" id="parallax_mobile" ></div>
               <div class="container visible-desktop" id="parallax_2" data-stellar-ratio="0.8" data-stellar-vertical-offset="50"></div>
               <div class="container visible-tablet" id="parallax_2_mobile" ></div>
-              <div class="container visible-desktop" id="about_header" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="0"><h1>ABOUT US</h1></div>
-              <div class="container visible-tablet" id="about_header_mobile" ><h1>ABOUT US</h1></div>
+              <div class="container visible-desktop" id="about_header" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="0"><h1>ABOUT </h1></div>
+              <div class="container visible-tablet" id="about_header_mobile" ><h1>ABOUT </h1></div>
           </div>
           <!-- /Header -->
           
@@ -131,6 +133,16 @@
                           
                           <div class="row margin90">
                               <div class="span7"><p>We Present to You <b>Prayudh 2.0</b>, The annual technical symposium of <b>Panimalar Institute of Technology</b> by the students of <b>Computer Science and Engineering and Information Technology</b>. Prayudh on its second version, lays the platform for young computer aspirants to bring out the best in them and present it at this grand technical fest.<br><br>With Seven Great Events each with its own suprizes to thrill you, you are going to be taken aback at what you will face.<br><br><B>GO HARD OR GO HOME</B></p>
+							  <div class="row">
+								<div class="span2">
+									<img src="img/custom/csi.jpg"  />
+								</div>
+								<div class="span5">
+									<br>
+									<p>This event is in collaboration with the Computer Society of India (Chennai Chapter)</p>
+								</div>
+							  </div>
+						
                               </div>
                               
                               <div class="span4 offset1">
@@ -139,13 +151,14 @@
                                           <img src="img/about_img3.jpg" alt="img" >
                                               </div>
                               
+						   
                           </div>
                           
                       </div>
                       
                       <!-- Team -->
                       
-                      <div class="span12">
+                      <!--<div class="span12">
                           
                           <h2 class="centered">Dream team.</h2>
                           
@@ -173,11 +186,12 @@
                                       <p>Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. Souvlaki ignitus carborundum e pluribus unum.</p>
                                       </div>
                               
-                          </div>
+                          </div> 
                           
-                      </div>
+                      </div>-->
                       
                   </div>
+				  
                   
               </div><!-- /container -->
           </div><!-- /content -->
@@ -199,8 +213,8 @@
               <div class="container visible-tablet" id="parallax_3_mobile" ></div>
               <div class="container visible-desktop" id="parallax_4" data-stellar-ratio="0.8" data-stellar-vertical-offset="200"></div>
               <div class="container visible-tablet" id="parallax_4_mobile" ></div>
-              <div class="container visible-desktop" id="services_header" data-stellar-background-ratio="0.7" data-stellar-vertical-offset="0"><h1>Services</h1></div>
-              <div class="container visible-tablet" id="services_header_mobile" ><h1>Services</h1></div>
+              <div class="container visible-desktop" id="services_header" data-stellar-background-ratio="0.7" data-stellar-vertical-offset="0"><h1>Events</h1></div>
+              <div class="container visible-tablet" id="services_header_mobile" ><h1>Events</h1></div>
           </div>
           
           <!-- /Header -->
@@ -216,7 +230,7 @@
                       
                       <div class="span12 centered">
                           
-                          <h2>We make our clients happy!</h2>
+                          <h2>Show us what you've got!</h2>
                           <hr>
                           
                       </div>
@@ -228,82 +242,169 @@
                           <div class="row">
                               
                               <div class="span3">
-                                  <img src="img/digital_icon.jpg" alt="digital" >
+                                  <img src="img/custom/paper.jpg" alt="digital" class=" img-polaroid">
                               </div>
                               
                               <div class="span4 offset1 services_item">
-                                  <h4>Web Design</h4>
-                                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismodtincidunt ut laoreet dolore magna aliquam erat volutpat.</p>    
+                                  <h4>PAPÍR PREZENTACE</h4>
+                                  <p>DESC</p>    
                               </div>
                               
                               <div class="span4 services_item">
-                                  <h4>Web Development</h4>
-                                  <p>Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. Souvlaki ignitus carborundum e pluribus unum.</p>     
+                                  <strong><h5>Rules</h5></strong>
+                                  <p>
+									<ul class="rules">
+										<li>rule1</li>
+										<li>rule 2</li>
+									</ul>
+								  </p>     
                               </div>
                           
                           </div>
-                          
-                          
-                          <div class="row">
-
-                              <div class="span4 offset4">
-                                  <h4>Wordpress</h4>
-                                  <p>Defacto lingo est igpay atinlay. Marquee selectus non provisio incongruous feline nolo contendre</p>
-                              </div>
-                              
-                              <div class="span4">
-                                  <h4>Landing Pages</h4>
-                                  <p>Gratuitous octopus niacin, sodium glutimate. Quote meon an estimate et non interruptus stadium.</p>
-                              </div>
-                          
-                          </div>
-                          
-                          <hr>
-                          
-                          <div class="row">
+						  <hr/>
+						  <div class="row">
                               
                               <div class="span3">
-                                  <img src="img/brand_icon.jpg" alt="brand" >
+                                  <img src="img/custom/debugging.jpg" alt="digital" class=" img-polaroid">
                               </div>
                               
                               <div class="span4 offset1 services_item">
-                                  <h4>Brand Creation</h4>
-                                  <p>Sic tempus fugit esperanto hiccup estrogen. Glorious baklava ex librus hup hey ad infinitum. Non sequitur condominium facile et geranium incognito. </p>
+                                  <h4>ELIMINARE ERROR</h4>
+                                  <p>DESC</p>    
                               </div>
                               
                               <div class="span4 services_item">
-                                  <h4>Corporate Identity</h4>
-                                  <p>Epsum factorial non deposit quid pro quo hic escorol. Marquee selectus non provisio incongruous feline nolo contendre Olypian quarrels et gorilla congolium sic ad nauseum. </p>
+                                  <strong><h5>Rules</h5></strong>
+                                  <p>
+									<ul class="rules">
+										<li>rule1</li>
+										<li>rule 2</li>
+									</ul>
+								  </p>     
                               </div>
-                              
-                          </div>
-
-                          <hr>
                           
-                          <div class="row">
+                          </div>
+						  <hr/>
+						  <div class="row">
                               
                               <div class="span3">
-                                  <img src="img/misc_icon.jpg" alt="misc" >
+                                  <img src="img/custom/quiz.jpg" alt="digital" class=" img-polaroid">
                               </div>
                               
                               <div class="span4 offset1 services_item">
-                                  <h4>App Design</h4>
-                                  <p>Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, li tot Europa usa li sam vocabularium.</p>
+                                  <h4>KWIZ</h4>
+                                  <p>DESC</p>    
                               </div>
                               
                               <div class="span4 services_item">
-                                  <h4>Print Design</h4>
-                                  <p>Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos directe al desirabilita; de un nov lingua franca: on refusa continuar payar custosi traductores. </p>
+                                  <strong><h5>Rules</h5></strong>
+                                  <p>
+									<ul class="rules">
+										<li>rule1</li>
+										<li>rule 2</li>
+									</ul>
+								  </p>     
                               </div>
-
+                          
                           </div>
-
-                      </div>
+						  <hr/>
+						  <div class="row">
+                              
+                              <div class="span3">
+                                  <img src="img/custom/web.jpg" alt="digital" class=" img-polaroid">
+                              </div>
+                              
+                              <div class="span4 offset1 services_item">
+                                  <h4>DESEÑO WEB</h4>
+                                  <p>DESC</p>    
+                              </div>
+                              
+                              <div class="span4 services_item">
+                                  <strong><h5>Rules</h5></strong>
+                                  <p>
+									<ul class="rules">
+										<li>rule1</li>
+										<li>rule 2</li>
+									</ul>
+								  </p>     
+                              </div>
+                          
+                          </div>
+						  <hr/>
+						  <div class="row">
+                              
+                              <div class="span3">
+                                  <img src="img/custom/adzap.jpg" alt="digital" class=" img-polaroid">
+                              </div>
+                              
+                              <div class="span4 offset1 services_item">
+                                  <h4>ADZERIA</h4>
+                                  <p>DESC</p>    
+                              </div>
+                              
+                              <div class="span4 services_item">
+                                  <strong><h5>Rules</h5></strong>
+                                  <p>
+									<ul class="rules">
+										<li>rule1</li>
+										<li>rule 2</li>
+									</ul>
+								  </p>     
+                              </div>
+                          
+                          </div>
+						  <hr/>
+						  <div class="row">
+                              
+                              <div class="span3">
+                                  <img src="img/custom/gaming.jpg" alt="digital" class=" img-polaroid">
+                              </div>
+                              
+                              <div class="span4 offset1 services_item">
+                                  <h4>VIRTUELS</h4>
+                                  <p>DESC</p>    
+                              </div>
+                              
+                              <div class="span4 services_item">
+                                  <strong><h5>Rules</h5></strong>
+                                  <p>
+									<ul class="rules">
+										<li>rule1</li>
+										<li>rule 2</li>
+									</ul>
+								  </p>     
+                              </div>
+                          
+                          </div>
+						  <hr/>
+						  <div class="row">
+                              
+                              <div class="span3">
+                                  <img src="img/custom/surprise.jpg" alt="digital" class=" img-polaroid">
+                              </div>
+                              
+                              <div class="span4 offset1 services_item">
+                                  <h4>EVENTO SUPRESA</h4>
+                                  <p>DESC</p>    
+                              </div>
+                              
+                              <div class="span4 services_item">
+                                  <strong><h5>Rules</h5></strong>
+                                  <p>
+									<ul class="rules">
+										<li>rule1</li>
+										<li>rule 2</li>
+									</ul>
+								  </p>     
+                              </div>
+                          
+                          </div>
+						  <hr/>
                       
                       <!-- /Services list -->
                       
                       
-                      <!-- Process -->
+                      <!-- Process 
                       
                       <div class="span12">
                           <h2 class="centered">The Process.</h2>
@@ -335,7 +436,7 @@
                           </div>
                           
                       </div>
-                      <!-- /Process -->
+                       -->
                   
                   </div> 
                   
@@ -359,8 +460,8 @@
               <div class="container visible-tablet" id="parallax_5_mobile" ></div>
               <div class="container visible-desktop" id="parallax_6" data-stellar-ratio="0.8" data-stellar-vertical-offset="0"></div>
               <div class="container visible-tablet" id="parallax_6_mobile" ></div>
-              <div class="container visible-desktop" id="works_header" data-stellar-background-ratio="0.7" data-stellar-vertical-offset="0"><h1>Works</h1></div>
-              <div class="container visible-tablet" id="works_header_mobile" ><h1>Works</h1></div>
+              <div class="container visible-desktop" id="works_header" data-stellar-background-ratio="0.7" data-stellar-vertical-offset="0"><h1>Register!</h1></div>
+              <div class="container visible-tablet" id="works_header_mobile" ><h1>Register!</h1></div>
           </div>
           
           <!-- /Header -->
@@ -375,120 +476,66 @@
                       
                       <!-- Portfolio work 1 -->
                       <div class="span12">
-                          <h2 class="centered">Target - landing page</h2>
-                          <div class="flexslider" id="portfolio1">
-                              <ul class="slides">
-                                  <li>
-                                      <img src="img/portfolio1_a.jpg" alt=""/>
-                                      
-                                  </li>
-                                  <li>
-                                      <img src="img/portfolio1_b.jpg" alt=""/>
-                                      
-                                  </li>
-                              </ul>
-                          </div>
+                          <h2 class="centered">ARE YOU IN?</h2>
                           
                           <div class="row margin90">
                               
                               <div class="span8">
-                                  
-                                      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismodtincidunt ut laoreet dolore magna aliquam erat volutpat.Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+                                <form class="form-horizontal" action="#">
+									<div class="control-group">
+										<label class="control-label">Name:</label>
+										<div class="controls">
+											<input type="text" name="name" required="required" class="input span3" placeholder="Name"/>
+										</div>
+									</div>
+									<div class="control-group">
+										<label class="control-label">College:</label>
+										<div class="controls">
+											<input type="text" name="college" required="required" class="input span3" placeholder="College"/>
+										</div>
+									</div>
+									<div class="control-group">
+										<label class="control-label">Year:</label>
+										<div class="controls">
+											<select name="year" required="required">
+												<option value="1">I</option>
+												<option value="1">II</option>
+												<option value="1">III</option>
+												<option value="1">IV</option>
+											</select>
+										</div>
+									</div>
+									<div class="control-group">
+										<label class="control-label">Email ID:</label>
+										<div class="controls">
+											<input name="name" type="email" required class="input span3" placeholder="Email"/>
+										</div>
+									</div>
+									<div class="control-group">
+										<label class="control-label">Phone:</label>
+										<div class="controls">
+											<input type="text" name="name" required="required" class="input span3" placeholder="Phone"/>
+										</div>
+									</div>
+								
+									
+                                      
                               </div>
                               
                               
                               <div class="span4">
                                   <div class="client">
-                                      <h5><strong>Client: </strong>Microsoft&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Date: </strong>01/05/2012</h5>
+                                      <h5>Please fill out the form to register for Prayudh. You will receive a confirmation Email along with your PID (Prayudh ID).</h5>
                                       
-                                      <div><a href="#"><button type="button" name="" value="" class="cta">Check Online Version</button></a></div>
+                                      <div><button type="submit" name="" value="" class="cta">Register</button></div>
                                       </div>
                               </div>
-                              
+                              </form>
                           </div>
                       <hr>
                       </div>
                       <!-- /Portfolio work 1 -->
-                      
-                      <!-- Portfolio work 2 -->
-                      <div class="span12">
-                          <h2 class="centered">Mobile App</h2>
-                          <div class="flexslider" id="portfolio2">
-                              <ul class="slides">
-                                  <li>
-                                      <img src="img/portfolio2_a.jpg" alt=""/>
-                                      
-                                  </li>
-                                  <li>
-                                      <iframe src="http://player.vimeo.com/video/8118831" width="900" height="506" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> 
-                                      
-                                  </li>
-                              </ul>
-                          </div>
-                          
-                          <div class="row margin90">
-                              
-                              <div class="span8">
-                                  
-                                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismodtincidunt ut laoreet dolore magna aliquam erat volutpat.Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-                              </div>
-                              
-                              
-                              <div class="span4">
-                                  <div class="client">
-                                      <h5><strong>Client: </strong>Microsoft&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Date: </strong>01/05/2012</h5>
-                                      
-                                      <div><a href="#"><button type="button" name="" value="" class="cta">Check Online Version</button></a></div>
-                                  </div>
-                              </div>
-                              
-                          </div>
-                      <hr>    
-                      </div>
-                      <!-- /Portfolio work 2 -->
-                      
-                      <!-- Portfolio work 3 -->
-                      <div class="span12">
-                          <h2 class="centered">X-Tech template</h2>
-                          <div class="flexslider" id="portfolio3">
-                              <ul class="slides">
-                                  <li>
-                                      <img src="img/portfolio3_a.jpg" alt=""/>
-                                      
-                                  </li>
-                                  <li>
-                                      <img src="img/portfolio3_b.jpg" alt=""/>
-                                      
-                                  </li>
-                              </ul>
-                          </div>
-                          
-                          <div class="row margin90">
-                              
-                              <div class="span8">
-                                  
-                                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismodtincidunt ut laoreet dolore magna aliquam erat volutpat.Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-                              </div>
-                              
-                              
-                              <div class="span4">
-                                  <div class="client">
-                                      <h5><strong>Client: </strong>Microsoft&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Date: </strong>01/05/2012</h5>
-                                      
-                                      <div><a href="#"><button type="button" name="" value="" class="cta">Check Online Version</button></a></div>
-                                  </div>
-                              </div>
-                              
-                          </div>
-                          
-                      </div>
-                      <!-- /Portfolio work 3 -->
-                      
-                  </div>
-                  
-              </div><!-- /container -->
-              
-          </div><!-- /content -->
+                     
           
       </section>
       
@@ -505,7 +552,7 @@
                       
                       <div class="span12" id="gallery_items">
                           
-                          <h1 class="centered">Other projects</h1>
+                          <h1 class="centered">Sneak Peek... :)</h1>
                           
                           <div class="row margin90">
                               
@@ -558,16 +605,43 @@
               <div class="row">
                   <div class="span12 centered">
                       <h2>Get in touch</h2>
-                      <h1><a href="mailto:#">contact@exit.com</a></h1>
-                      
-                      <p>Please get in touch with us for additional information about Exit and our services.
-                      We're based in Warsaw, Poland, Morszynska Street 12/5. You can also call Us at <strong>123 456 789</strong>.</p>
+                      <h1><a href="mailto:#">info@prayudh.com</a></h1>
+					  <h3 class="addr">Panimalar Institute of Technology</h3>
+					  <h5 class="addr">(A Christian Minority Institution)<h5>
+					  <h5 class="addr">Jaisakthi Educational Trust</h5>
+                      <p><strong>Address: </strong>No.391, Bangalore Trunk Road,Varadharajapuram
+Poonamallee, Chennai - 600 123.</p>
+						<hr />
+                           <div class="row margin90" id="process">
+                              <div class="span3 centered">
+                                  <h4 class="addr">Coord. 1</h4>
+                                  <p>Email</p>         
+								  <p>Phone</p> 	
+                              </div>
+                              
+                              <div class="span3 centered">
+                                  <h4 class="addr">Coord. 1</h4>
+                                  <p>Email</p>         
+								  <p>Phone</p> 	
+                              </div>
+                              
+                              <div class="span3 centered">
+                                  <h4 class="addr">Coord. 1</h4>
+                                  <p>Email</p>         
+								  <p>Phone</p> 	
+                              </div>
+                              
+                              <div class="span3 centered">
+                                  <h4 class="addr">Coord. 1</h4>
+                                  <p>Email</p>         
+								  <p>Phone</p> 	
+                              </div>
+                                                        
+                          
+                      </div>
                       <ul class="list-social">
                           <li class="facebook"><a href="#"></a></li>
                           <li class="twitter"><a href="#"></a></li>
-                          <li class="forrst"><a href="#"></a></li>
-                          <li class="dribbble"><a href="#"></a></li>
-                          <li class="rss"><a href="#"></a></li>
                       </ul>
                       
                   </div>
@@ -602,7 +676,7 @@
           <div class="container" >
               <div class="row">
                   <div class="span12 centered">
-                      <p>© 2012 EXIT HTML/CSS Template by Shegy</p>
+                      <p style="color:white;">© 2013 Prayudh. All rights reserved.</p>
                       
                   </div>
                   
@@ -656,8 +730,8 @@
                           $("#map").gMap({ controls: false,
                                          scrollwheel: false,
                                          draggable: false,
-                                         markers: [{ latitude: 52.218545549866356,
-                                                   longitude: 21.005859375,
+                                         markers: [{ latitude: 13.053372,
+                                                   longitude: 80.073284,
                                                    icon: { image: "img/pin.png",
                                                    iconsize: [32, 47],
                                                    iconanchor: [32,47],
@@ -667,8 +741,8 @@
                                          iconsize: [26, 46],
                                          iconanchor: [12, 46],
                                          infowindowanchor: [12, 0] },
-                                         latitude: 52.218545549866356,
-                                         longitude: 21.005859375,
+                                         latitude: 13.053372,
+                                         longitude: 80.073284,
                                          zoom: 13 });
                           });
     </script>

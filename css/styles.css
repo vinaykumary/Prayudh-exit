@@ -31,6 +31,11 @@ body {
     position:relative;    
 }
 
+p,.rules
+{
+	font-weight: 500;
+}
+
 /* NAV
 ******************************************************************/
 
@@ -88,6 +93,13 @@ nav li a.selected {
 	z-index: 200;
 }
 
+/* Address */
+
+.addr
+{
+	color: white;
+}
+
 
 /* Home
 ******************************************************************/
@@ -126,7 +138,7 @@ nav li a.selected {
     color:black;
     text-transform:uppercase;
     margin-top:10px;
-    z-index: 3;
+    z-index: 4;
     position:relative;
 }
 
@@ -167,7 +179,7 @@ nav li a.selected {
     max-width:900px;
     position:absolute;
     display:block;
-    z-index: 100;
+    z-index: 1;
     bottom:0px;
     -moz-background-size:contain; 
     -webkit-background-size:contain; 
@@ -206,7 +218,9 @@ img#logo {
     z-index: 1;
 }
 
- */#parallax_3 {
+ */
+ 
+ /*#parallax_3 {
     background: url(../img/services_bg2.png) no-repeat center  top;
     display:block;
     width:100%;
@@ -214,7 +228,7 @@ img#logo {
     position:absolute;
     z-index: 2;
 }
-
+*/
 #parallax_4 {
     background: url(../img/services_bg3.png) no-repeat center top;      
     display:block;
@@ -349,7 +363,7 @@ img#logo {
 ******************************************************************/
 
 #services_header {
-    background: url(../img/services_bg.jpg) no-repeat center center  ;
+    background: url(../img/eventsbg.jpg) no-repeat center center  ;
     background-color:#D9CEAD; 
     width:100%;
     height:450px;
@@ -359,7 +373,7 @@ img#logo {
      
 }
 #services_header_mobile {
-    background: url(../img/services_bg.jpg) no-repeat center center  ;
+    background: url(../img/eventsbg.jpg) no-repeat center center  ;
     background-color:#e24e4e; 
     width:100%;
     height:450px;
@@ -374,7 +388,7 @@ img#logo {
     font-weight: 900;
     letter-spacing: -8px;
     line-height: 115px;
-    color:black;
+    color:white;
     text-transform:uppercase;
     margin-top:200px;
     z-index: 3;
@@ -383,12 +397,21 @@ img#logo {
 
 .services_item {margin-bottom:40px;}
 
-
+.services_item h4
+{
+	font-weight:500;	
+}
 #process h3 {
     text-transform:uppercase;
     margin-bottom:20px;
 }
 
+.services_item h5{
+	text-transform:uppercase;
+    margin-bottom:20px;
+	font-size: 20px;
+	
+}
 
 
 /* Works
