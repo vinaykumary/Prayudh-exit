@@ -124,6 +124,27 @@ nav li a.selected {
     left:0px;
 }
 
+ 
+/*  #home {
+    background: url(video/video.mp4) no-repeat center center;
+    background-color:#e24e4e;
+    width:100%;
+    position:relative;
+    display:block;
+    text-align: center;
+    z-index:20;
+}
+
+#home_bg { background: url(video/video.mp4) no-repeat center center;
+    background-color:#e24e4e;
+    width:100%;
+    height:100%;
+    position:absolute;
+    z-index:2;
+    top:0px;
+    left:0px;
+} */
+
 #home img{
     position:relative;
     z-index:100;
@@ -141,6 +162,26 @@ nav li a.selected {
     z-index: 4;
     position:relative;
 }
+
+#home h3{
+	font-size: 40px;
+
+    color:black;
+    text-transform:uppercase;
+    z-index: 5;
+    position:relative;
+}
+#home h2{
+	font-size: 50px;
+	
+    line-height: 115px;
+    color:black;
+    text-transform:uppercase;
+    margin-top:10px;
+    z-index: 4;
+    position:relative;
+}
+
 
 #arrow {
     width:79px;

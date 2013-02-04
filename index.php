@@ -9,6 +9,7 @@
     
     <link href="css/bootstrap.css" rel="stylesheet">
 	<link href="css/forms-bootstrap.css" rel="stylesheet">
+	<link href="css/bootstrap-alert.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
     <link href="css/flexslider.css" rel="stylesheet">
     <link href="css/jquery.fancybox-1.3.4.css" rel="stylesheet">
@@ -38,12 +39,12 @@
               
               <div class="row ">
                   <div>
-                      
+						<h2 style="color:white;">Panimalar Institute of Technology</h2>
+                      <h3>Departments of CSE and IT present</h3>
                       <div id="logo"><img src="img/logo.png" alt="Logo" ></div>
                       
-                      <div id="head" class="hidden-phone"></div>
                       
-                      <h1>The Battle Of Brains.</h1>
+                      <h2>MARCH 2<sup>nd</sup> 2013</h2>
                       
                       <div id="arrow" class="hidden-phone"><a href="#about"></a></div>
                       <div id="home_bg" class="hidden-phone hidden-tablet" data-stellar-background-ratio="0.5" data-stellar-vertical-offset="0"></div>
@@ -132,7 +133,7 @@
                           <h2 class="centered">What we`re about.</h2>
                           
                           <div class="row margin90">
-                              <div class="span7"><p>We Present to You <b>Prayudh 2.0</b>, The annual technical symposium of <b>Panimalar Institute of Technology</b> by the students of <b>Computer Science and Engineering and Information Technology</b>. Prayudh on its second version, lays the platform for young computer aspirants to bring out the best in them and present it at this grand technical fest.<br><br>With Seven Great Events each with its own suprizes to thrill you, you are going to be taken aback at what you will face.<br><br><B>GO HARD OR GO HOME</B></p>
+                              <div class="span12"><p>We Present to You <b>Prayudh 2.0</b>, The annual technical symposium of <b>Panimalar Institute of Technology</b> by the students of <b>Computer Science and Engineering and Information Technology</b>. Prayudh on its second version, lays the platform for young computer aspirants to bring out the best in them and present it at this grand technical fest.<br><br>With Seven Great Events each with its own suprizes to thrill you, you are going to be taken aback at what you will face.<br><br><B>GO HARD OR GO HOME</B></p>
 							  <div class="row">
 								<div class="span2">
 									<img src="img/custom/csi.jpg"  />
@@ -145,11 +146,11 @@
 						
                               </div>
                               
-                              <div class="span4 offset1">
+                             <!-- <div class="span4 offset1">
                                   <img src="img/about_img1.jpg" alt="img" >
                                       <img src="img/about_img2.jpg" alt="img" >
                                           <img src="img/about_img3.jpg" alt="img" >
-                                              </div>
+                                             </div> -->
                               
 						   
                           </div>
@@ -469,7 +470,7 @@
           
           <!-- Content -->
           
-          <div class="content">
+          <div class="content"  id="register">
               <div class="container">
                   
                   <div class="row">
@@ -481,17 +482,47 @@
                           <div class="row margin90">
                               
                               <div class="span8">
-                                <form class="form-horizontal" action="#">
+							   <?php 
+									if(isset($_GET['result']))
+									{ 
+										$result = $_GET['result']; 
+									}
+									else
+									{
+										$result="";
+									}
+									
+									if ($result==null and $result=="")
+									{
+									
+									}
+									if ($result=='success')
+									{
+									echo '<div class="alert alert-success">
+											  
+											  <strong>Registration successful! </strong>Please check your email for confirmation
+										  </div>';
+									}
+									
+									if ($result=='duplicate')
+									{
+										echo '<div class="alert alert-warning">
+											
+											<strong>Registration Failed! </strong>Email has already been registered
+											</div>';
+									}
+								?>
+                                <form class="form-horizontal" action="register.php" method="POST" id="registration-form">
 									<div class="control-group">
 										<label class="control-label">Name:</label>
 										<div class="controls">
-											<input type="text" name="name" required="required" class="input span3" placeholder="Name"/>
+											<input type="text" name="name" required="required" minlength="5" class="input span3 required" placeholder="Name"/>
 										</div>
 									</div>
 									<div class="control-group">
 										<label class="control-label">College:</label>
 										<div class="controls">
-											<input type="text" name="college" required="required" class="input span3" placeholder="College"/>
+											<input type="text" name="college" required="required" class="input span3 required" placeholder="College"/>
 										</div>
 									</div>
 									<div class="control-group">
@@ -508,13 +539,13 @@
 									<div class="control-group">
 										<label class="control-label">Email ID:</label>
 										<div class="controls">
-											<input name="name" type="email" required class="input span3" placeholder="Email"/>
+											<input name="email" type="email" required class="input span3 required email" placeholder="Email"/>
 										</div>
 									</div>
 									<div class="control-group">
 										<label class="control-label">Phone:</label>
 										<div class="controls">
-											<input type="text" name="name" required="required" class="input span3" placeholder="Phone"/>
+											<input type="text" name="phone" required="required" class="input span3 required" placeholder="Phone"/>
 										</div>
 									</div>
 								
@@ -704,8 +735,9 @@ Poonamallee, Chennai - 600 123.</p>
     <script src="js/jquery.gmap.js"></script>
     <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
     
-    
-    <script type="text/javascript">
+
+	
+	<script type="text/javascript">
         $(function(){
           $.stellar({
                     horizontalScrolling: false,
