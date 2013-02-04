@@ -248,15 +248,18 @@
                               
                               <div class="span4 offset1 services_item">
                                   <h4>PAPÍR PREZENTACE</h4>
-                                  <p>DESC</p>    
+                                  <p align="justify">The conventional paper presentation is back again. The Second version gives the chance for inspiring idealists to present their papers and win exciting cash prizes.<br> Send your scripts to papers@prayudh.com on or before 25th Feb and Make sure you register.</p>    
                               </div>
                               
                               <div class="span4 services_item">
                                   <strong><h5>Rules</h5></strong>
                                   <p>
 									<ul class="rules">
-										<li>rule1</li>
-										<li>rule 2</li>
+										<li>The Paper should adhere strictly to IEEE Format.</li>
+										<li>A team can consist of maximum of two members and also contain cross college members.</li>
+										<li>Each team should register and send their papers on or before 25th Feb</li>
+										<li>The intimation of selected papers will be sent by 28th Feb and those teams need to present on March 2nd</li>
+										<li>No forms of plagiarism will be entertained and judges decision is final and binding</li>
 									</ul>
 								  </p>     
                               </div>
@@ -271,15 +274,18 @@
                               
                               <div class="span4 offset1 services_item">
                                   <h4>ELIMINARE ERROR</h4>
-                                  <p>DESC</p>    
+                                  <p align="justify">Are you a perfectionist? Then this event is just tailor made for you. This event takes you through your wildest dreams of programming.</p>    
                               </div>
                               
                               <div class="span4 services_item">
                                   <strong><h5>Rules</h5></strong>
                                   <p>
 									<ul class="rules">
-										<li>rule1</li>
-										<li>rule 2</li>
+										<li>A team can consist of maximum 3 members.</li>
+										<li>There will be 2 rounds held for the event</li>
+										<li>The preliminary round will consist of 20 Questions</li>
+										<li>The next round will be decided by the judges on spot</li>
+										<li>Questions will range from various corners of C, C++ and Java</li>
 									</ul>
 								  </p>     
                               </div>
@@ -294,15 +300,16 @@
                               
                               <div class="span4 offset1 services_item">
                                   <h4>KWIZ</h4>
-                                  <p>DESC</p>    
+                                  <p align="justify">Who's wants to be millionaire? Yes the quiz is back but no money is at stake here. This event check your awareness in the field of Computer Science and IT. Have the Brains? Show us you got them</p>    
                               </div>
                               
                               <div class="span4 services_item">
                                   <strong><h5>Rules</h5></strong>
                                   <p>
 									<ul class="rules">
-										<li>rule1</li>
-										<li>rule 2</li>
+										<li>A team should  consist of a maximum of 3 members.</li>
+										<li>The event consists of two rounds</li>
+										<li>The questions will test awareness in the field of CSE & IT.</li>
 									</ul>
 								  </p>     
                               </div>
@@ -317,16 +324,17 @@
                               
                               <div class="span4 offset1 services_item">
                                   <h4>DESEÑO WEB</h4>
-                                  <p>DESC</p>    
+                                  <p align="justify">Have a passion for HTML & CSS and web designing. Well then you are the right place. DESENO WEB invites the best web designers to display their talent.</p>    
                               </div>
                               
                               <div class="span4 services_item">
                                   <strong><h5>Rules</h5></strong>
                                   <p>
 									<ul class="rules">
-										<li>rule1</li>
-										<li>rule 2</li>
-									</ul>
+										<li>A team should consists of maximum of 2 members</li>
+										<li>No other resources other than that provided should be used.</li>
+										<li>The event has a span of two rounds</li>
+																			</ul>
 								  </p>     
                               </div>
                           
@@ -340,15 +348,16 @@
                               
                               <div class="span4 offset1 services_item">
                                   <h4>ADZERIA</h4>
-                                  <p>DESC</p>    
+                                  <p align="justify">Nothing can be sold today without advertisement. The best advertisements in the world create the best market. Market the product given to you with the best ad and prove you can be the next big thing</p>    
                               </div>
                               
                               <div class="span4 services_item">
                                   <strong><h5>Rules</h5></strong>
                                   <p>
 									<ul class="rules">
-										<li>rule1</li>
-										<li>rule 2</li>
+										<li>A minimum of 3 members and a maximum of 6 members each team.</li>
+										<li>The topic will be given and 7 minutes before their performance</li>
+										<li>The judges decision is binding and final.</li>
 									</ul>
 								  </p>     
                               </div>
@@ -363,15 +372,15 @@
                               
                               <div class="span4 offset1 services_item">
                                   <h4>VIRTUELS</h4>
-                                  <p>DESC</p>    
+                                  <p align="justify">YES, as the picture says Gaming is not a crime. We the students of Panimalar are very enthusiastic about gaming and we love to take this forward. Be here and show your hands can do the talking.</p>    
                               </div>
                               
                               <div class="span4 services_item">
                                   <strong><h5>Rules</h5></strong>
                                   <p>
 									<ul class="rules">
-										<li>rule1</li>
-										<li>rule 2</li>
+										<li>Joysticks should be brought by the respective participants.</li>
+										<li>The judges decision is final.</li>
 									</ul>
 								  </p>     
                               </div>
@@ -386,17 +395,10 @@
                               
                               <div class="span4 offset1 services_item">
                                   <h4>EVENTO SUPRESA</h4>
-                                  <p>DESC</p>    
+                                  <p>Suprise Suprise!! Follow us and you may actually get a clue.</p>    
                               </div>
                               
-                              <div class="span4 services_item">
-                                  <strong><h5>Rules</h5></strong>
-                                  <p>
-									<ul class="rules">
-										<li>rule1</li>
-										<li>rule 2</li>
-									</ul>
-								  </p>     
+                               
                               </div>
                           
                           </div>
